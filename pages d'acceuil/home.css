@@ -1,0 +1,38 @@
+html,
+body{
+
+  color: white;
+   background-image: url('image.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+}
+.home-left{
+  padding: 6.2rem 4rem 8rem 5rem;
+  font-family: arial black;
+  font-size: 5rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+
+}
+.home-right{
+  font-family: monospace;
+  font-size: 10px;
+  margin-top: 240px;
+  margin-left: 240px;
+  text-align: center;
+  font-weight: lighter;
+}
+.btn-lg{
+  font-family: monospace;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(2, 90, 165, 1);
+}
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active{
+  background-color: rgba(2, 90, 165, 0.5);
+  border: 1px solid rgba(2, 90, 165, 0);
+  transition: 0.5s;
+}
